@@ -47,12 +47,13 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    margin: 30px;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    max-width: 1440px;
+    max-width: 700px;
     min-height: 500px;
     }
 
@@ -148,6 +149,12 @@ top: 2px;
 }
 
 @media (min-width: 700px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
   
     .card {
         display: grid;
