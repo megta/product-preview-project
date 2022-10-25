@@ -47,7 +47,7 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    
+    border-radius: 10px;
     }
 
 .card__product-category {
@@ -82,7 +82,8 @@ body {
 }
 
 .card__image {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -106,7 +107,6 @@ content: url(images/icon-cart.svg);
     .card {
     min-width: 375px;
     min-height: 500px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     }
@@ -117,7 +117,6 @@ content: url(images/icon-cart.svg);
     .card {
         max-width: 1440px;
         min-height: 500px;
-        border-radius: 10px;
         display: grid;
     
         }
