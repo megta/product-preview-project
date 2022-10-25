@@ -41,6 +41,10 @@
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+}
+
 body {
     background-color: hsl(30, 38%, 92%);
 }
@@ -48,20 +52,28 @@ body {
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    padding: 20px;
+   
     }
+
+.card__word-container {
+    padding: 20px;
+}
 
 .card__product-category {
     font-family: 'Montserrat';
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     letter-spacing: 4px;
+
 }
 
 .card__product-name {
     font-family: 'Fraunces';
     font-size: 35px;
     color: hsl(212, 21%, 14%);
+   padding-top: 20px;
+   padding-bottom: 20px;
+
 }
 
 .card__description {
@@ -69,6 +81,7 @@ body {
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     line-height: 1.5;
+    padding-bottom: 20px;
 }
 
 .card__current-price {
@@ -85,6 +98,7 @@ body {
 }
 
 .card__image {
+   display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -98,14 +112,16 @@ body {
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
     border-radius: 5px;
-    width: 300px;
+    width: 100%;
     height: auto;
-    padding: 12px;
+    padding: 12px 12px 12px 24px;
+    border: none;
     
 }
 
 .card__cart-btn::before {
 content: url(images/icon-cart.svg);
+padding-right: 10px;
 
 }
 
