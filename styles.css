@@ -48,17 +48,19 @@ body {
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
+    padding: 20px;
     }
 
 .card__product-category {
     font-family: 'Montserrat';
     font-size: 14px;
     color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
 }
 
 .card__product-name {
     font-family: 'Fraunces';
-    font-size: 20px;
+    font-size: 35px;
     color: hsl(212, 21%, 14%);
 }
 
@@ -66,11 +68,12 @@ body {
     font-family: 'Montserrat';
     font-size: 14px;
     color: hsl(228, 12%, 48%);
+    line-height: 1.5;
 }
 
 .card__current-price {
     font-family: 'Fraunces';
-    font-size: 20px;
+    font-size: 35px;
     color: hsl(158, 36%, 37%);
 }
 
@@ -82,10 +85,12 @@ body {
 }
 
 .card__image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
+
 
 .card__cart-btn {
     font-family: 'Montserrat';
@@ -102,13 +107,14 @@ content: url(images/icon-cart.svg);
 
 }
 
+
+
 @media (max-width: 499px) {
 
     .card {
     min-width: 375px;
     min-height: 500px;
-    display: flex;
-    flex-direction: column;
+    
     }
 
 }
