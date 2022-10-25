@@ -95,6 +95,7 @@ body {
     font-size: 14px;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
+    padding-left: 20px;
 }
 
 .card__image {
@@ -104,6 +105,14 @@ body {
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
+
+.card__price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
 
 
 .card__cart-btn {
