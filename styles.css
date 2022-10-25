@@ -37,4 +37,11 @@
          url('../fonts/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
 
-  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  .card {
+    width: 375px;
+    height: auto;
+  }
