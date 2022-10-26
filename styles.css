@@ -125,12 +125,13 @@ body {
     font-size: 1rem;
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
     height: auto;
-    padding: 15px 15px 15px 50px;
+    padding: 15px 15px 15px 40px;
     border: none;
   position: relative;
+  
 }
 
 .card__cart-btn::before {
@@ -178,9 +179,18 @@ top: 2px;
 
         .card__word-container {
             grid-row: 1 / 9;
-            grid-column: 5 / 8;
+            grid-column: 5 / 9;
+            padding: 40px 40px 40px 30px;
         }
 
+        .card__price-container {
+            padding-top: 10px;
+        } 
+        
+        .card__cart-btn {
+           margin-top: 10px;
+           padding-right: 30px;
+        }
 }
 
 
