@@ -141,6 +141,12 @@ right: 10px;
 top: 2px;
 }
 
+.card__cart-btn:hover {
+    background-color:  hsl(158, 36%, 26%);
+    cursor: pointer;
+}
+
+
 .attribution {
     text-align: center;
 }
